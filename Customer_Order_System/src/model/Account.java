@@ -7,10 +7,10 @@ public class Account {
     private final String creditCardNumber;
     private final double balance;
 
-    public Account (String creditCard) {
+    public Account (String creditCardNumber) {
         Random rand = new Random();
 
-        this.creditCardNumber = creditCard;
+        this.creditCardNumber = creditCardNumber;
 
         // creating a random value between 1,000 and 10,000 for the balance in the account
         this.balance = 1000 + (10000 - 1000) * rand.nextDouble();
