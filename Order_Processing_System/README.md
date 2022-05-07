@@ -52,8 +52,10 @@
 * If an item(s) is out of stock, the system displays that the item(s) needs to be refilled.
 * The system updates the number of available and reserved items in the warehouse. The total of items in the warehouse is a summation of available items and reserved items. 
 * The system displays a message that the items have been reserved.  
+
 ### Ship Order
-* The supplier requests customer orders in “ready” status.  * The system displays the customer orders and items in “ready” status. 
+* The supplier requests customer orders in “ready” status.  
+* The system displays the customer orders and items in “ready” status. 
 * The supplier selects a customer order and ships the order’s items manually to the customer. 
 * The supplier changes the customer order status to “shipped’ status. 
 * The system updates the number of reserved items in stock. 
