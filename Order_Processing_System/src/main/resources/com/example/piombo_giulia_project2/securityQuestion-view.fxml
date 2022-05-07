@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:controller="com.example.piombo_giulia_project2.SecurityQuestionController" xmlns:fx="https://javafx.com/fxml"
+          alignment="TOP_CENTER" hgap="10" vgap="10">
+
+    <padding>
+        <Insets top="100" bottom="100" left="100" right="100"/>
+    </padding>
+
+    <VBox alignment="CENTER" spacing="10.0">
+        <Label fx:id="question">
+            <font>
+                <Font name="Times New Roman bold" size="15"/>
+            </font>
+        </Label>
+
+        <HBox alignment="CENTER">
+            <Label text="Answer: ">
+                <font>
+                    <Font name="Times New Roman bold" size="15"/>
+                </font>
+            </Label>
+            <TextField fx:id="answerInput"/>
+        </HBox>
+
+        <Button fx:id="submitButton" text="Submit" onAction="#switchToLoggedPage"
+                maxHeight="20" maxWidth="150">
+            <font>
+                <Font name="Times New Roman" size="15"/>
+            </font>
+        </Button>
+    </VBox>
+
+</GridPane>

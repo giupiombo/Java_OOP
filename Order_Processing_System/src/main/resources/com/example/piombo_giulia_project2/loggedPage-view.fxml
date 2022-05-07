@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:controller="com.example.piombo_giulia_project2.LoggedPageController" xmlns:fx="https://javafx.com/fxml"
+          alignment="TOP_CENTER" hgap="10" vgap="10">
+
+    <padding>
+        <Insets top="100" bottom="100" left="100" right="100"/>
+    </padding>
+
+    <Button fx:id="selectItemsButton" text="Select Items" onAction="#switchLoggedPressed"
+            GridPane.rowIndex="0" GridPane.columnIndex="0" maxHeight="20" maxWidth="200">
+        <font>
+            <Font name="Times New Roman" size="20"/>
+        </font>
+    </Button>
+
+    <Button fx:id="makeOrderButton" text="Make Order" onAction="#switchLoggedPressed"
+            GridPane.rowIndex="1" GridPane.columnIndex="0" maxHeight="20" maxWidth="200">
+        <font>
+            <Font name="Times New Roman" size="20"/>
+        </font>
+    </Button>
+
+    <Button fx:id="viewOrder" text="View Order" onAction="#switchLoggedPressed"
+            GridPane.rowIndex="2" GridPane.columnIndex="0" maxHeight="20" maxWidth="200">
+        <font>
+            <Font name="Times New Roman" size="20"/>
+        </font>
+    </Button>
+
+    <Button fx:id="logOutButton" text="Log Out" onAction="#switchLoggedPressed"
+            GridPane.rowIndex="3" GridPane.columnIndex="0" maxHeight="20" maxWidth="200">
+        <font>
+            <Font name="Times New Roman" size="20"/>
+        </font>
+    </Button>
+
+</GridPane>
